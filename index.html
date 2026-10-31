@@ -1,0 +1,132 @@
+<title>Liftory Privacy & Support</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Figtree:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: one calm reading column, a lime header band, short sections with plain headings */
+:root{
+  --bg:#FFF6EC; --surface:#FFFFFF; --ink:#1E1A2E; --muted:#675F7D; --line:#F1DFCB;
+  --accent:#FF5E3A; --pop:#C6F432; --pop-ink:#1E1A2E; --note:#FFF0C7;
+  --display:"Fredoka","Arial Rounded MT Bold",system-ui,sans-serif;
+  --body:"Figtree",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#15121F; --surface:#211D31; --ink:#FFF8EE; --muted:#A9A3C2; --line:#363150; --accent:#FF7A5C; --note:#3A2E12; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15121F; --surface:#211D31; --ink:#FFF8EE; --muted:#A9A3C2; --line:#363150; --accent:#FF7A5C; --note:#3A2E12; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--body)}
+.band{background:var(--pop);color:var(--pop-ink)}
+.wrap{max-width:680px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.band .wrap{padding-block:36px 30px;display:flex;gap:16px;align-items:center}
+.band svg{width:64px;height:64px;flex:none;transform:rotate(-6deg)}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(28px,6vw,40px);line-height:1.1;margin:0;text-wrap:balance}
+.band p{margin:4px 0 0;font-weight:500}
+nav.toc{display:flex;flex-wrap:wrap;gap:8px;padding-block:18px 0}
+nav.toc a{font-weight:600;font-size:14px;color:var(--ink);text-decoration:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px}
+nav.toc a:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+main .wrap{padding-block:12px 48px;display:flex;flex-direction:column;gap:34px}
+section{display:flex;flex-direction:column;gap:10px}
+h2{font-family:var(--display);font-weight:700;font-size:26px;margin:0;scroll-margin-top:16px}
+h3{font-family:var(--display);font-weight:600;font-size:18px;margin:8px 0 0}
+p,li{margin:0;max-width:65ch}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.meta{color:var(--muted);font-size:14px}
+.short{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.short b{font-family:var(--display);font-size:18px}
+.todo{background:var(--note);border-radius:12px;padding:10px 14px;font-size:14px}
+details{border-top:1px solid var(--line);padding-block:12px}
+details:last-of-type{border-bottom:1px solid var(--line)}
+summary{font-weight:700;cursor:pointer}
+details p{margin-top:8px}
+.contact{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.contact code{font:600 15px var(--body);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:6px 10px;user-select:all}
+button{font:600 14px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:6px 14px;cursor:pointer}
+footer{color:var(--muted);font-size:13px;padding-block:0 32px}
+</style>
+
+<header class="band"><div class="wrap">
+  <svg viewBox="0 0 1024 1024" aria-hidden="true"><rect width="1024" height="1024" rx="230" fill="#1E1A2E"/><circle cx="512" cy="550" r="330" fill="#C6F432"/><path d="M340 356 Q400 320 460 356M564 356 Q624 320 684 356" fill="none" stroke="#1E1A2E" stroke-width="22" stroke-linecap="round"/><circle cx="400" cy="458" r="64" fill="#1E1A2E"/><circle cx="624" cy="458" r="64" fill="#1E1A2E"/><circle cx="410" cy="470" r="30" fill="#C6F432"/><circle cx="634" cy="470" r="30" fill="#C6F432"/><circle cx="512" cy="660" r="76" fill="#1E1A2E"/></svg>
+  <div><h1>Liftory Privacy &amp; Support</h1><p>Your workouts stay on your phone. Here's exactly what that means, and how to get help.</p></div>
+</div></header>
+
+<main><div class="wrap">
+  <nav class="toc" aria-label="On this page"><a href="#privacy">Privacy</a><a href="#safety">Safety</a><a href="#support">Help &amp; FAQ</a><a href="#contact">Contact</a></nav>
+
+  <section id="privacy">
+    <h2>Privacy policy</h2>
+    <p class="meta">Effective 31 October 2026 · applies to the Liftory iPhone app, including TestFlight beta versions</p>
+    <div class="short"><b>The short version</b>
+      <ul>
+        <li>Liftory has <b>no account</b> and <b>collects no data</b>. There is no Liftory server holding your information.</li>
+        <li>Everything you enter stays <b>on your iPhone</b>: workouts, your profile, check-ins and notes.</li>
+        <li>Liftory <b>never reads or writes Apple Health</b> data.</li>
+        <li>No ads, no analytics, no tracking, and nothing is sold or shared.</li>
+        <li>The only internet use is downloading the app's fonts from Google Fonts (explained below).</li>
+      </ul>
+    </div>
+
+    <h3>What you enter, and where it's kept</h3>
+    <p>Liftory stores the information you type in only on your device: exercises, sets, reps and weights; your profile (sex, bodyweight, training experience, goal); and optional check-ins such as soreness, sleep, energy, joint discomfort and, if you turn it on, period days. The coach's analysis runs on your phone using this data. It is never sent to the developer or anyone else.</p>
+
+    <h3>Fonts from Google</h3>
+    <p>When it has an internet connection, Liftory downloads its two display fonts (Fredoka and Figtree) from Google Fonts. Like any website request, this lets Google see your device's IP address and basic browser details. None of your workout data is included. Without internet, Liftory uses your iPhone's built-in fonts and works normally.</p>
+
+    <h3>Sensitive information</h3>
+    <p>Check-ins about joint pain or your period are personal. They are optional, kept only on your phone, and left out of CSV exports unless you choose to include them. You can turn the check-in off at any time in <b>You</b>.</p>
+
+    <h3>Backups</h3>
+    <p>When you tap <b>Copy backup</b>, your data is copied as text to your iPhone's clipboard. You decide where to paste and keep it, for example in Notes or a file in your own iCloud Drive. The developer never receives it.</p>
+
+    <h3>Purchases</h3>
+    <p>Beta versions are free. If Liftory Pro is offered later, it will be bought through Apple's App Store. Apple processes the payment; the developer never sees your payment details.</p>
+
+    <h3>TestFlight beta</h3>
+    <p>If you test Liftory through Apple's TestFlight, Apple shares with the developer what TestFlight normally shares: the name and email you were invited with, your device model and iOS version, crash reports, and any screenshots or feedback you choose to send. This is handled under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a> and used only to fix and improve Liftory.</p>
+
+    <h3>Feedback you send</h3>
+    <p>If you email feedback or a support question, the developer receives your email address and message and uses them only to reply. They are not added to any mailing list.</p>
+
+    <h3>Deleting your data</h3>
+    <p>In <b>You › Your data</b>, tap <b>Delete all workout history</b>. Deleting the app also removes everything it stored on your phone. Backup files you saved elsewhere are yours to delete.</p>
+
+    <h3>Children</h3>
+    <p>Liftory is intended for people aged 16 and over. It doesn't knowingly collect information from anyone, including children.</p>
+
+    <h3>Malaysian law and changes</h3>
+    <p>Liftory is published from Malaysia and is designed to follow the Personal Data Protection Act 2010 by not collecting personal data in the first place. If this policy changes, the new version will be posted here with a new effective date before it applies.</p>
+  </section>
+
+  <section id="safety">
+    <h2>Safety</h2>
+    <p>Liftory gives <b>training suggestions, not medical advice</b>. The coach works from what you log, so it can't see your form, your health or how you feel on the day.</p>
+    <ul>
+      <li>Stop an exercise if something hurts. Sharp or lasting pain is a reason to see a doctor or physiotherapist.</li>
+      <li>Check with a health professional before training if you have an injury, a medical condition, or are pregnant or recently gave birth.</li>
+      <li>Adjust any suggestion that doesn't match how you feel.</li>
+    </ul>
+  </section>
+
+  <section id="support">
+    <h2>Help &amp; FAQ</h2>
+    <details><summary>How do I back up my workouts?</summary><p>Go to <b>You › Backup and restore</b> and tap <b>Copy backup</b>, then paste it somewhere safe, such as Notes or a file in iCloud Drive. Do this every few weeks, and before changing phones. Deleting the app also deletes your workouts.</p></details>
+    <details><summary>I got a new phone. How do I move my history?</summary><p>On the old phone, copy a backup. On the new phone, open Liftory, go to <b>You › Backup and restore</b>, paste the backup and tap <b>Restore from text</b>. You can also choose <b>Restore from a backup file</b>.</p></details>
+    <details><summary>Can I bring my history from Strong or Hevy?</summary><p>Yes. Export a CSV file from the other app, then in Liftory go to <b>You › Bring your history from another app</b> and pick the file. Your workouts are added; nothing is overwritten.</p></details>
+    <details><summary>My gym's machine shows pounds. Can I use lb for one exercise?</summary><p>Yes. Under the exercise, tap <b>Edit</b> and switch its unit to lb. Other exercises stay in kg.</p></details>
+    <details><summary>Why does the coach say "keep the weight"?</summary><p>The coach waits until every set reaches the top of your rep range with good form before adding weight. Tap <b>Why?</b> under any suggestion to see the reasons from your own logs.</p></details>
+    <details><summary>Too much detail, or not enough?</summary><p>Change your focus in <b>You › Your focus</b>: <b>Keep it simple</b> for plain advice, or <b>Functional</b> for the full push, pull, squat and hinge view.</p></details>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Questions, bugs or ideas are welcome. Beta testers can also send feedback straight from the TestFlight app. You'll get a reply within a few working days.</p>
+    <div class="contact"><code id="email">alonegreen88@gmail.com</code><button type="button" id="copy">Copy email</button><span class="meta" id="copied" aria-live="polite"></span></div>
+  </section>
+</div></main>
+
+<footer><div class="wrap">Liftory · made in Malaysia · © 2026</div></footer>
+
+<script>
+document.getElementById("copy").addEventListener("click",()=>{
+  const t=document.getElementById("email").textContent,o=document.getElementById("copied");
+  const sel=()=>{const r=document.createRange();r.selectNodeContents(document.getElementById("email"));const s=getSelection();s.removeAllRanges();s.addRange(r);o.textContent="Selected — copy it from the menu";};
+  try{navigator.clipboard.writeText(t).then(()=>{o.textContent="Copied";},sel);}catch(e){sel();}
+});
+</script>
